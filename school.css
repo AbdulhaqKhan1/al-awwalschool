@@ -1,0 +1,145 @@
+  body {
+    color: black;
+  font-family: sans-serif;
+  }
+  
+  /* nav {
+    height: 3em;
+    background: white;
+    color: green;
+    padding-top: 0.8em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 700;
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 4px 4px 4px 4px green;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 1em;
+  }
+  
+  .logo{
+  height: 6em;
+  width: 6em;
+  object-fit: cover;
+  border-radius: 50px;
+   margin-top: 0.2em; 
+  margin-bottom: 1em;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  margin-top: 5em;
+}
+
+h3{
+  text-align: center;
+  color: black;
+
+}
+
+ul{
+  text-align: left;
+  color: black;
+}
+
+h2{
+  color: black;
+  margin-top: 5em;
+}
+
+p{
+  color:butter;
+  width: 30em;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+}
+
+.gallery{
+  width: 30em;
+  height: 20em;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.der{
+  text-align: center;
+} */
+
+
+
+  .spinner {
+    border: 3px solid black;
+    border-top: 3px solid green;
+    border-radius: 70em;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+    margin-top: 15em;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  #loading {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  #message {
+    display: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5em;
+  }
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 3em;
+}
+
+nav > img{
+  width: 50px;
+}
+
+.links{
+  list-style: none;
+  display: flex;
+  gap: 5em;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(11, 68, 11);
+}
+
+.body-img{
+  height: 15em;
+  width: 100vw;
+}
